@@ -15,7 +15,7 @@ var myheight = 580
 var mywidth = 1600
 
 function preload() {
-    song = loadSound('../MUSIC/ud_chala.mp3')
+    song = loadSound('./ud_chala.mp3')
 }
 
 function setup() {
