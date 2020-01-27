@@ -15,7 +15,7 @@ var myheight = 580
 var mywidth = 1600
 
 function preload() {
-    song = loadSound('../MUSIC/djsnake.mp3')
+    song = loadSound('feint.mp3')
 }
 
 function setup() {
@@ -68,16 +68,4 @@ function draw() {
     maxx = imaxx
     //console.log(myspectrum)
     
-    /*res = smoothed_z_score(myspectrum)
-    beginShape()
-    for(var i=0;i<res.length;i++)
-    {
-        var x = map(i,0,bins/8,0,width)
-        var y = map(res[i],-1,1,300,100)
-
-        noFill()
-        vertex(x,y)
-    }
-    endShape()
-    if(myspectrum.length >10 ) myspectrum.splice(0,myspectrum.length-6)*/
 }
