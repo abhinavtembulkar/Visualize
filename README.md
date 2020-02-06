@@ -9,4 +9,4 @@ Project is hosted at : https://abhinavtembulkar.github.io/Visualize/
 Instructions : wait for the song to load , song will play itself. Afterwards use play/pause button
 
 ## screenshots
-![](/images/screenshot.png)
+![](/images/bars.png)
